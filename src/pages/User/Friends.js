@@ -131,7 +131,7 @@ const FriendImg = styled.div`
   }
 `;
 
-const friends = [
+export const friends = [
   {
     id: 1,
     name: "홍길동",
