@@ -22,7 +22,7 @@ function App() {
           <Route exact path="/user/register" element={<Register />} />
           <Route exact path="/user/friends" element={<Friends />} />
           <Route exact path="/user/:userId/profile" element={<Profile />} />
-          <Route exact path="/chat" element={<Chats />} />
+          <Route exact path="/chat/rooms/:roomId" element={<Chats />} />
           <Route exact path="/chat/rooms" element={<Rooms />} />
           <Route exact path="/setting" element={<Setting />} />
         </Routes>
